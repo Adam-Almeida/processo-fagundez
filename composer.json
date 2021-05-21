@@ -1,0 +1,24 @@
+{
+  "name": "adamalmeida/processofagundez",
+  "description": "Aplicação desenvolvida para o processo e seleção da empresa Fagundez Maio 2021",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Adam Almeida de Oliveira"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php"
+    ]
+  },
+  "require": {
+  }
+}
